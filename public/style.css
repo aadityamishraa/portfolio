@@ -564,16 +564,16 @@ video {
   z-index: 10;
 }
 
-.m-auto{
-  margin: auto;
-}
-
 .m-4{
   margin: 1rem;
 }
 
 .m-8{
   margin: 2rem;
+}
+
+.m-auto{
+  margin: auto;
 }
 
 .mb-10{
@@ -610,10 +610,6 @@ video {
 
 .mt-10{
   margin-top: 2.5rem;
-}
-
-.ml-4{
-  margin-left: 1rem;
 }
 
 .flex{
@@ -761,29 +757,24 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.border-yellow-400{
-  --tw-border-opacity: 1;
-  border-color: rgb(250 204 21 / var(--tw-border-opacity));
+.bg-blue-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }
 
-.bg-green-300{
+.bg-green-200{
   --tw-bg-opacity: 1;
-  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+}
+
+.bg-pink-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
 }
 
 .bg-purple-300{
   --tw-bg-opacity: 1;
   background-color: rgb(216 180 254 / var(--tw-bg-opacity));
-}
-
-.bg-red-400{
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-}
-
-.bg-slate-400{
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
 .bg-white{
@@ -794,26 +785,6 @@ video {
 .bg-yellow-400{
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
-}
-
-.bg-green-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
-}
-
-.bg-pink-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 168 212 / var(--tw-bg-opacity));
-}
-
-.bg-pink-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
-}
-
-.bg-blue-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }
 
 .p-4{
@@ -906,167 +877,6 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.before\:absolute::before{
-  content: var(--tw-content);
-  position: absolute;
-}
-
-.before\:relative::before{
-  content: var(--tw-content);
-  position: relative;
-}
-
-.before\:top-10::before{
-  content: var(--tw-content);
-  top: 2.5rem;
-}
-
-.before\:-top-10::before{
-  content: var(--tw-content);
-  top: -2.5rem;
-}
-
-.before\:-top-24::before{
-  content: var(--tw-content);
-  top: -6rem;
-}
-
-.before\:-top-32::before{
-  content: var(--tw-content);
-  top: -8rem;
-}
-
-.before\:-top-36::before{
-  content: var(--tw-content);
-  top: -9rem;
-}
-
-.before\:-top-40::before{
-  content: var(--tw-content);
-  top: -10rem;
-}
-
-.before\:-top-4::before{
-  content: var(--tw-content);
-  top: -1rem;
-}
-
-.before\:-top-44::before{
-  content: var(--tw-content);
-  top: -11rem;
-}
-
-.before\:m-1::before{
-  content: var(--tw-content);
-  margin: 0.25rem;
-}
-
-.before\:m-2::before{
-  content: var(--tw-content);
-  margin: 0.5rem;
-}
-
-.before\:m-3::before{
-  content: var(--tw-content);
-  margin: 0.75rem;
-}
-
-.before\:m-4::before{
-  content: var(--tw-content);
-  margin: 1rem;
-}
-
-.before\:m-8::before{
-  content: var(--tw-content);
-  margin: 2rem;
-}
-
-.before\:ml-4::before{
-  content: var(--tw-content);
-  margin-left: 1rem;
-}
-
-.before\:text-lg::before{
-  content: var(--tw-content);
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.before\:font-bold::before{
-  content: var(--tw-content);
-  font-weight: 700;
-}
-
-.before\:content-\[\]::before{
-  --tw-content: ;
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'\'\]::before{
-  --tw-content: '';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'Languages\'\]::before{
-  --tw-content: 'Languages';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'Frameworkstools\'\]::before{
-  --tw-content: 'Frameworkstools';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'Frameworks_tools\'\]::before{
-  --tw-content: 'Frameworks tools';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'Frameworks_\&tools\'\]::before{
-  --tw-content: 'Frameworks &tools';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'Frameworks_\&_tools\'\]::before{
-  --tw-content: 'Frameworks & tools';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'Frameworks_\&_Tools\'\]::before{
-  --tw-content: 'Frameworks & Tools';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'Frameworks\'\]::before{
-  --tw-content: 'Frameworks';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'Frameworks_\'\]::before{
-  --tw-content: 'Frameworks ';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'Frameworks_\&\'\]::before{
-  --tw-content: 'Frameworks &';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'Frameworks_\&_\'\]::before{
-  --tw-content: 'Frameworks & ';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'Frameworks__Tools\'\]::before{
-  --tw-content: 'Frameworks  Tools';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'Frameworks_Tools\'\]::before{
-  --tw-content: 'Frameworks Tools';
-  content: var(--tw-content);
-}
-
 .after\:relative::after{
   content: var(--tw-content);
   position: relative;
@@ -1082,21 +892,10 @@ video {
   left: 5rem;
 }
 
-.after\:mt-4::after{
-  content: var(--tw-content);
-  margin-top: 1rem;
-}
-
 .after\:text-4xl::after{
   content: var(--tw-content);
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.after\:text-lg::after{
-  content: var(--tw-content);
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .after\:font-bold::after{
@@ -1106,16 +905,6 @@ video {
 
 .after\:content-\[\'Techstack\'\]::after{
   --tw-content: 'Techstack';
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'\'\]::after{
-  --tw-content: '';
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'Frameworks\'\]::after{
-  --tw-content: 'Frameworks';
   content: var(--tw-content);
 }
 
