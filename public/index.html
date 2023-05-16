@@ -17,21 +17,25 @@
     <div class="z-10 w-full bg-white sticky top-0">
         <nav class="w-4/5 h-[10vh] py-2 m-auto flex justify-between items-center">
             <img src="/assets/profile.svg" alt="" srcset="">
-            <ul class="h-9 flex space-x-6 text-lg">
+
+            <ul class="hidden h-9 sm:flex space-x-6 text-lg">
                 <li class="hover:border-b-4 border-black "><a class="hover:cursor-fancy-hand" href="#about">About</a>
                 </li>
-                <li class="hover:border-b-4 border-black "><a class="hover:cursor-fancy-hand" href="">Projects</a></li>
+                <li class="hover:border-b-4 border-black "><a class="hover:cursor-fancy-hand" href="">Projects</a>
+                </li>
                 <li class="hover:border-b-4 border-black "><a class="hover:cursor-fancy-hand" href="">Blogs</a></li>
                 <li class="hover:border-b-4 border-black "><a class="hover:cursor-fancy-hand"
                         href="#contact">Contact</a>
                 </li>
             </ul>
-            <div>
+            <div class="hidden sm:block">
                 <a class="hover:cursor-fancy-hand" href="https://github.com/aadityamishraa" target="_blank"><i
                         class="mr-6 fa-brands fa-github fa-2xl"></i></a>
                 <a class="hover:cursor-fancy-hand" href="https://www.linkedin.com/in/aadityamishraa/" target="_blank"><i
                         class="fa-brands fa-linkedin fa-2xl"></i></a>
             </div>
+
+            <div class="sm:hidden"><i class="fa-solid fa-bars fa-2xl"></i></div>
         </nav>
     </div>
 
@@ -68,7 +72,7 @@
     </div>
 
     <!-- Education -->
-    <div id="education" class="h-screen w-4/5 m-auto flex justify-evenly items-center">
+    <div id="education" class="hidden h-screen w-4/5 m-auto sm:flex justify-evenly items-center">
         <img src="/assets/education.svg" alt="" srcset="">
     </div>
 
@@ -178,6 +182,7 @@
                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/public/thanks.html">
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_template" value="table">
+
             </form>
         </div>
         <!-- Content -->
