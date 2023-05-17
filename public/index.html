@@ -42,16 +42,21 @@
     <!-- Hero-section -->
     <div class="hero-section h-[90vh] w-4/5 m-auto flex justify-between items-center">
         <!-- hero-content -->
-        <span class="">
+        <span class="m-auto">
             <p class="text-3xl font-bold mb-10">Welcome</p>
             <p class="text-5xl font-bold mb-4">I'm Aaditya Mishra</p>
             <p class="text-lg text-neutral-800">Crafting beautiful web experiences with front-end<br>development and
                 UI/UX design</p>
+            
+            <!-- img for sm screen -->
+            <span class="lg:hidden">
+                <img class="my-8" src="/assets/hero_img.svg" alt="" srcset="">
+            </span>
             <button
-                class="border-2 border-black px-8 py-2 mt-10 hover:bg-black hover:text-white hover:cursor-fancy-hand">Resume</button>
+                class="border-2 border-black px-8 py-2 lg:mt-10 hover:bg-black hover:text-white hover:cursor-fancy-hand">Resume</button>
         </span>
         <!-- hero-img -->
-        <span>
+        <span class="hidden lg:block">
             <img src="/assets/hero_img.svg" alt="" srcset="">
         </span>
     </div>
