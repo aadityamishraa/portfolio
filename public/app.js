@@ -15,3 +15,5 @@ navLink.forEach((link) => {
     hamburger.classList.toggle("fa-xmark");
   });
 });
+
+

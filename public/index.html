@@ -61,46 +61,39 @@
     </div>
 
     <!-- Hero-section -->
-    <div class="hero-section h-[90vh] w-4/5 m-auto flex justify-between items-center border-2 border-red-500">
+    <div class="hero-section h-[90vh] w-4/5 m-auto flex justify-between sm:justify-around items-center">
         <!-- hero-content -->
         <span class="m-auto lg:m-0">
-            <p class="text-2xl md:text-3xl font-bold mb-5 md:mb-10">Welcome</p>
-            <p class="text-4xl md:text-5xl font-bold mb-4 md:mb-6">
-                I'm Aaditya Mishra
+            <p class="text-5xl font-sora mb-4 md:mb-6 leading-normal">
+                Hello I'm
+                <span class="font-sora font-extrabold">Front-end <br>Developer </span>& <img class="inline-block"
+                    src="/assets/Designer.svg">
             </p>
-            <p class="text-sm md:text-lg text-neutral-800">
-                Crafting beautiful web experiences with front-end<br />development and
-                UI/UX design
-            </p>
-
             <!-- img for sm screen -->
             <span class="lg:hidden">
-                <img class="scale-75" class="my-8" src="/assets/hero_img.svg" alt="" srcset="" />
+                <img class="" class="my-8" src="/assets/hero_img.svg" alt="" srcset="" />
             </span>
             <button
-                class="border-2 border-black px-8 py-2 lg:mt-10 hover:bg-black hover:text-white hover:cursor-fancy-hand">
-                Resume
+                class="hover: hover:border-black px-8 py-4 mt-10 bg-black text-white hover:cursor-fancy-hand">
+                Resume &nbsp;<i class="fa-solid fa-download"></i>
             </button>
         </span>
         <!-- hero-img -->
         <span class="hidden lg:block">
-            <img src="/assets/hero_img.svg" alt="" srcset="" />
+            <img class="scale-110" src="/assets/hero_img.svg" alt="" srcset="" />
         </span>
     </div>
 
     <!-- About -->
-    <div id="about" class="border-2 border-green-500 h-full w-4/5 sm:pl-4 m-auto flex justify-evenly items-center flex-col lg:flex-row">
+    <div id="about" class="h-full w-4/5 sm:w-3/4 sm:pl-4 m-auto flex justify-evenly items-center flex-col lg:flex-row">
         <!-- Profile -->
-        <img class="z-0 drop-shadow-[-1rem_1rem] mb-12 sm:mb-0 sm:mr-8 " src="/assets/about_img.png" alt="" srcset="" />
+        <img class=" mb-12 sm:mb-0 sm:mr-24 " src="/assets/about_imgs.png" alt="" srcset="" />
         <!-- About-content  -->
         <div class="">
             <p class="text-4xl font-bold mb-8"># About</p>
             <p class="text-lg mb-4 text-justify">
-                As a Junior Front-End Developer, I'm skilled in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I specialize in designing and maintaining responsive websites for a seamless user experience. I excel in crafting dynamic, engaging interfaces through clean and optimized code, using cutting-edge tools. A collaborative team player, I thrive in cross-functional teams to create outstanding web applications.
-            </p>
-
-            <p class="text-lg text-justify">
-                I believe good design and functionality are equally important and
+                I'm Aaditya Mishra, a passionate Front-end developer and designer with a keen interest in
+                crafting seamless digital experiences. I believe good design and functionality are equally important and
                 strive to create visually appealing experiences that are easy to use.
             </p>
         </div>
@@ -116,9 +109,9 @@
             </div>
         </span> -->
 
-        <!-- <div class="h-full w-full border-l-4 border-b-4 border-black flex justify-between flex-wrap"> -->
-            <!-- Left -->
-            <!-- <div class="flex flex-col justify-between">
+    <!-- <div class="h-full w-full border-l-4 border-b-4 border-black flex justify-between flex-wrap"> -->
+    <!-- Left -->
+    <!-- <div class="flex flex-col justify-between">
                 <div>
                     <p class="text-lg font-bold m-4">Languages</p>
                     <div
@@ -135,8 +128,8 @@
                 </div>
             </div> -->
 
-            <!-- Right -->
-            <!-- <div class="flex flex-col justify-end items-center">
+    <!-- Right -->
+    <!-- <div class="flex flex-col justify-end items-center">
                 <img src="/assets/work_balance.svg" alt="" srcset="" />
                 <div
                     class="bg-blue-200 h-64 w-[32rem] border-b-0 border-4 border-black flex flex-col justify-evenly items-center">
@@ -150,22 +143,25 @@
 
 
     <!-- Contact -->
-    <div id="contact" class="w-4/5 m-auto flex flex-wrap-reverse border-2 border-red-500">
+    <div id="contact" class="w-4/5 m-auto flex flex-wrap-reverse">
         <!-- Form -->
         <div class="bg-purple-300 border-2 border-black flex justify-center items-center sm:mr-16">
-            <form class="m-8 sm:m-12" action="https://formsubmit.co/db029a55bb2e015170b7ececeb43b58d" method="POST" autocomplete="off">
-                <input class="border-2 border-black bg-white p-4 sm:p-4 mb-2 sm:mb-4 h-8 sm:h-12 w-full placeholder:text-black outline-none"
+            <form class="m-8 sm:m-12" action="https://formsubmit.co/db029a55bb2e015170b7ececeb43b58d" method="POST"
+                autocomplete="off">
+                <input
+                    class="border-2 border-black bg-white p-4 sm:p-4 mb-2 sm:mb-4 h-8 sm:h-12 w-full placeholder:text-black outline-none"
                     type="text" name="fullname" id="" placeholder="Full Name" /><br />
-                <input class="border-2 border-black bg-white p-4 sm:p-4 mb-4 h-8 sm:h-12 w-full placeholder:text-black outline-none"
+                <input
+                    class="border-2 border-black bg-white p-4 sm:p-4 mb-4 h-8 sm:h-12 w-full placeholder:text-black outline-none"
                     type="email" name="email" id="" placeholder="Email" /><br />
                 <textarea
                     class="border-2 border-black bg-white p-4 mb-4 w-full resize-none placeholder:text-black outline-none"
-                    name="message" id="" cols="30" rows="10" placeholder="Your message here..."></textarea><br />
+                    name="message" id="" cols="30" rows="8" placeholder="Your message here..."></textarea><br />
                 <input class="border-2 border-black bg-yellow-400 px-8 py-2 relative  hover:cursor-fancy-hand"
                     type="submit" value="Send message" />
 
-        <!-- formsubmit methods -->
-        <input type="hidden" name="_next" value="http://127.0.0.1:5500/public/thanks.html" />
+                <!-- formsubmit methods -->
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/public/thanks.html" />
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
             </form>
