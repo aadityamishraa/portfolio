@@ -2,30 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <script src="https://kit.fontawesome.com/735ef75283.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="cursor-fancy relative">
-
     <!-- Navigation bar -->
     <div class="z-10 w-full bg-white sticky top-0">
         <nav class="w-4/5 h-[10vh] py-2 m-auto flex justify-between items-center">
-            <img src="/assets/profile.svg" alt="" srcset="">
+            <img src="/assets/profile.svg" alt="" srcset="" />
 
             <ul class="hidden h-9 sm:flex space-x-6 text-lg">
-                <li class="hover:border-b-4 border-black "><a class="hover:cursor-fancy-hand" href="#about">About</a>
+                <li class="hover:border-b-4 border-black">
+                    <a class="hover:cursor-fancy-hand" href="#about">About</a>
                 </li>
-                <li class="hover:border-b-4 border-black "><a class="hover:cursor-fancy-hand" href="">Projects</a>
+                <li class="hover:border-b-4 border-black">
+                    <a class="hover:cursor-fancy-hand" href="">Projects</a>
                 </li>
-                <li class="hover:border-b-4 border-black "><a class="hover:cursor-fancy-hand" href="">Blogs</a></li>
-                <li class="hover:border-b-4 border-black "><a class="hover:cursor-fancy-hand"
-                        href="#contact">Contact</a>
+                <li class="hover:border-b-4 border-black">
+                    <a class="hover:cursor-fancy-hand" href="">Blogs</a>
+                </li>
+                <li class="hover:border-b-4 border-black">
+                    <a class="hover:cursor-fancy-hand" href="#contact">Contact</a>
                 </li>
             </ul>
             <div class="hidden sm:block">
@@ -35,175 +38,161 @@
                         class="fa-brands fa-linkedin fa-2xl"></i></a>
             </div>
 
-            <div class="sm:hidden"><i class="fa-solid fa-bars fa-2xl"></i></div>
+            <div class="sm:hidden z-50">
+                <i id="hamburger" class="fa-solid fa-bars fa-2xl"></i>
+            </div>
+
+            <ul id="menu"
+                class="sm:hidden hidden bg-white absolute top-0 left-0 w-full p-12 space-y-6 border-4 border-black">
+                <li class="">
+                    <a class="hover:cursor-fancy-hand nav-link" href="#about">About</a>
+                </li>
+                <li class="">
+                    <a class="hover:cursor-fancy-hand nav-link" href="">Projects</a>
+                </li>
+                <li class="">
+                    <a class="hover:cursor-fancy-hand nav-link" href="">Blogs</a>
+                </li>
+                <li class="">
+                    <a class="hover:cursor-fancy-hand nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </nav>
     </div>
 
     <!-- Hero-section -->
-    <div class="hero-section h-[90vh] w-4/5 m-auto flex justify-between items-center">
+    <div class="hero-section h-[90vh] w-4/5 m-auto flex justify-between items-center border-2 border-red-500">
         <!-- hero-content -->
         <span class="m-auto lg:m-0">
-            <p class="text-3xl font-bold mb-10">Welcome</p>
-            <p class="text-5xl font-bold mb-4">I'm Aaditya Mishra</p>
-            <p class="text-lg text-neutral-800">Crafting beautiful web experiences with front-end<br>development and
-                UI/UX design</p>
+            <p class="text-2xl md:text-3xl font-bold mb-5 md:mb-10">Welcome</p>
+            <p class="text-4xl md:text-5xl font-bold mb-4 md:mb-6">
+                I'm Aaditya Mishra
+            </p>
+            <p class="text-sm md:text-lg text-neutral-800">
+                Crafting beautiful web experiences with front-end<br />development and
+                UI/UX design
+            </p>
 
             <!-- img for sm screen -->
             <span class="lg:hidden">
-                <img class="my-8" src="/assets/hero_img.svg" alt="" srcset="">
+                <img class="scale-75" class="my-8" src="/assets/hero_img.svg" alt="" srcset="" />
             </span>
             <button
-                class="border-2 border-black px-8 py-2 lg:mt-10 hover:bg-black hover:text-white hover:cursor-fancy-hand">Resume</button>
+                class="border-2 border-black px-8 py-2 lg:mt-10 hover:bg-black hover:text-white hover:cursor-fancy-hand">
+                Resume
+            </button>
         </span>
         <!-- hero-img -->
         <span class="hidden lg:block">
-            <img src="/assets/hero_img.svg" alt="" srcset="">
+            <img src="/assets/hero_img.svg" alt="" srcset="" />
         </span>
     </div>
 
     <!-- About -->
-    <div id="about" class="h-screen w-4/5 m-auto flex justify-evenly items-center flex-wrap">
+    <div id="about" class="border-2 border-green-500 h-full w-4/5 sm:pl-4 m-auto flex justify-evenly items-center flex-col lg:flex-row">
         <!-- Profile -->
-        <img class="z-0 drop-shadow-[-1rem_1rem]" src="/assets/about_img.png" alt="" srcset="">
+        <img class="z-0 drop-shadow-[-1rem_1rem] mb-12 sm:mb-0 sm:mr-8 " src="/assets/about_img.png" alt="" srcset="" />
         <!-- About-content  -->
-        <div class="w-1/2">
+        <div class="">
             <p class="text-4xl font-bold mb-8"># About</p>
-            <p class="text-lg mb-4">I’m a Frontend Developer and UI/UX designer. Currently pursuing BCA from Maharishi
-                Markandeshwar (Deemed to be University).</p>
+            <p class="text-lg mb-4 text-justify">
+                As a Junior Front-End Developer, I'm skilled in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I specialize in designing and maintaining responsive websites for a seamless user experience. I excel in crafting dynamic, engaging interfaces through clean and optimized code, using cutting-edge tools. A collaborative team player, I thrive in cross-functional teams to create outstanding web applications.
+            </p>
 
-            <p class="text-lg">I believe good design and functionality are equally important and strive to create
-                visually appealing experiences that are easy to use.</p>
+            <p class="text-lg text-justify">
+                I believe good design and functionality are equally important and
+                strive to create visually appealing experiences that are easy to use.
+            </p>
         </div>
     </div>
 
-    <!-- Education -->
-    <div id="education" class="hidden h-screen w-4/5 m-auto sm:flex justify-evenly items-center">
-        <img src="/assets/education.svg" alt="" srcset="">
-    </div>
 
     <!-- Techstack -->
-    <div class="w-4/5 m-auto">
-
+    <!-- <div class="w-4/5 m-auto">
         <span class="flex justify-center mb-12">
-
             <div
                 class="after:content-['Techstack'] after:font-bold after:text-4xl after:relative after:-top-20 after:left-20">
-
-                <img src="/assets/techstack_node.svg" alt="" srcset="">
-
+                <img src="/assets/techstack_node.svg" alt="" srcset="" />
             </div>
-        </span>
+        </span> -->
 
-        <div class="h-full w-full border-l-4 border-b-4 border-black flex justify-between flex-wrap">
-
+        <!-- <div class="h-full w-full border-l-4 border-b-4 border-black flex justify-between flex-wrap"> -->
             <!-- Left -->
-            <div class="flex flex-col justify-between">
+            <!-- <div class="flex flex-col justify-between">
                 <div>
                     <p class="text-lg font-bold m-4">Languages</p>
                     <div
                         class="bg-green-200 h-64 w-[30rem] border-l-0 border-4 border-black mb-12 flex justify-center items-center">
-
-                        <img src="/assets/lang.svg" alt="">
-
+                        <img src="/assets/lang.svg" alt="" />
                     </div>
                 </div>
                 <div>
                     <p class="text-lg font-bold m-4">Frameworks & Tools</p>
                     <div
                         class="bg-pink-200 h-72 w-[32rem] border-l-0 border-b-0 border-4 border-black flex justify-center items-center">
-
-                        <img src="/assets/frameworks.svg" alt="">
+                        <img src="/assets/frameworks.svg" alt="" />
                     </div>
                 </div>
-
-            </div>
+            </div> -->
 
             <!-- Right -->
-            <div class="flex flex-col justify-end items-center">
-                <img src="/assets/work_balance.svg" alt="" srcset="">
+            <!-- <div class="flex flex-col justify-end items-center">
+                <img src="/assets/work_balance.svg" alt="" srcset="" />
                 <div
-                    class="bg-blue-200 h-64 w-[32rem] border-b-0 border-4 border-black flex flex-col justify-evenly items-center ">
+                    class="bg-blue-200 h-64 w-[32rem] border-b-0 border-4 border-black flex flex-col justify-evenly items-center">
                     <p class="text-lg font-bold">Design</p>
-                    <img src="/assets/designs.svg" alt="">
+                    <img src="/assets/designs.svg" alt="" />
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <!-- Achievement -->
-    <div class="h-full w-4/5 m-auto pt-20">
-        <h1 class="font-bold text-4xl text-center mb-20"># Achievement</h1>
-        <!-- content -->
-        <div class="flex justify-evenly items-center flex-wrap">
-            <img src="/assets/achievement.svg" alt="">
-            <span>
-                <div class="flex space-x-10 mb-16">
-                    <img src="/assets/first_rank.svg" alt="" srcset="">
-                    <span>
-                        <p class="text-xl font-bold">2nd Runner Up</p>
-                        <p class="text-base">Appicorns Hackathon</p>
-                        <p class="text-xs">(December 2022)</p>
-                    </span>
-                </div>
-                <div class="flex space-x-10">
-                    <img src="/assets/second_rank.svg" alt="" srcset="">
-                    <span>
-                        <p class="text-xl font-bold">Finalist</p>
-                        <p class="text-base">Product Game Hackathon</p>
-                        <p class="text-xs">(February 2023)</p>
-                    </span>
-                </div>
-            </span>
-        </div>
-
-        <!-- Memories -->
-        <div class="">
-            <p class="text-lg font-bold m-8">Memories</p>
-            <div class="flex items-center justify-between">
-                <img src="/assets/memories_1.png" alt="" srcset="">
-                <img src="/assets/memories_3.png" alt="" srcset="">
-                <img src="/assets/memories_2.png" alt="" srcset="">
-            </div>
-        </div>
-    </div>
 
 
     <!-- Contact -->
-    <div id="contact" class="w-4/5 h-[90vh] m-auto flex justify-between items-center flex-wrap-reverse">
+    <div id="contact" class="w-4/5 m-auto flex flex-wrap-reverse border-2 border-red-500">
         <!-- Form -->
-        <div class="bg-purple-300 border-2 border-black w-[26rem] h-[75vh] flex justify-center items-center">
-            <form action="https://formsubmit.co/db029a55bb2e015170b7ececeb43b58d" method="POST" autocomplete="off">
-                <input class="border-2 border-black bg-white p-4 mb-4 h-12 w-full placeholder:text-black outline-none"
-                    type="text" name="fullname" id="" placeholder="Full Name"><br>
-                <input class="border-2 border-black bg-white p-4 mb-4 h-12 w-full placeholder:text-black outline-none"
-                    type="email" name="email" id="" placeholder="Email"><br>
+        <div class="bg-purple-300 border-2 border-black flex justify-center items-center sm:mr-16">
+            <form class="m-8 sm:m-12" action="https://formsubmit.co/db029a55bb2e015170b7ececeb43b58d" method="POST" autocomplete="off">
+                <input class="border-2 border-black bg-white p-4 sm:p-4 mb-2 sm:mb-4 h-8 sm:h-12 w-full placeholder:text-black outline-none"
+                    type="text" name="fullname" id="" placeholder="Full Name" /><br />
+                <input class="border-2 border-black bg-white p-4 sm:p-4 mb-4 h-8 sm:h-12 w-full placeholder:text-black outline-none"
+                    type="email" name="email" id="" placeholder="Email" /><br />
                 <textarea
                     class="border-2 border-black bg-white p-4 mb-4 w-full resize-none placeholder:text-black outline-none"
-                    name="message" id="" cols="30" rows="10" placeholder="Your message here..."></textarea><br>
-                <input class="border-2 border-black bg-yellow-400 px-8 py-2 relative right-0 hover:cursor-fancy-hand"
-                    type="submit" value="Submit">
+                    name="message" id="" cols="30" rows="10" placeholder="Your message here..."></textarea><br />
+                <input class="border-2 border-black bg-yellow-400 px-8 py-2 relative  hover:cursor-fancy-hand"
+                    type="submit" value="Send message" />
 
-                <!-- formsubmit methods -->
-                <input type="hidden" name="_next" value="http://127.0.0.1:5500/public/thanks.html">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="table">
-
+        <!-- formsubmit methods -->
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/public/thanks.html" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="table" />
             </form>
         </div>
+
         <!-- Content -->
-        <div class="w-1/2">
+        <div class="mb-8 sm:mb-0 md:w-1/2">
             <p class="text-4xl font-bold mb-12"># Contact</p>
-            <p class="text-lg mb-4">🤝 I love collaborating with other creative folks, so don't hesitate to reach out
-                and say hi!</p>
-            <p class="text-lg mb-12">🚀 Let's make something awesome together!</p>
-            <img class="ml-24" src="/assets/handshake.svg" alt="" srcset="">
+            <ul class="text-lg">
+                <li class="before:content-['🚀']">Let's make something awesome together!</li>
+                <li class="before:content-['🤝']">I love collaborating, so don't hesitate to reach out and say hi!</li>
+            </ul>
+            <p class="text-xl font-bold mt-8">Reach me at:</p>
+            <p><i class="fa-solid fa-envelope m-4"></i>aadityamishra216@gmail.com</p>
         </div>
     </div>
+
     <!-- Footer -->
+
+    <div id="projects-container" class="projects-container">
+        <!-- Project cards will be generated here -->
+    </div>
+
     <footer class="p-8">
         <h1 align="center">Developed by ❤️ Aaditya Mishra</h1>
     </footer>
-
+    <script src="./app.js"></script>
 </body>
 
 </html>
