@@ -4,14 +4,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        andika: ['Andika', 'sans-serif']
+        sora: ["Sora", "sans-serif"],
+        andika: ["Andika", "sans-serif"],
+        play: ["Playpen Sans", "sans-serif"]
       },
       cursor: {
-        'fancy': 'url(/assets/pointer.svg), auto',
-        'fancy-hand': 'url(/assets/hand_pointer.svg), auto',
-      }
+        fancy: "url(/assets/pointer.svg), auto",
+        "fancy-hand": "url(/assets/hand_pointer.svg), auto",
+      },
     },
   },
   plugins: [],
-}
-
+};
