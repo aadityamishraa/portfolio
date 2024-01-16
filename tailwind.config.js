@@ -5,7 +5,6 @@ module.exports = {
     extend: {
       fontFamily: {
         sora: ["Sora", "sans-serif"],
-        andika: ["Andika", "sans-serif"],
         play: ["Playpen Sans", "sans-serif"]
       },
       cursor: {
