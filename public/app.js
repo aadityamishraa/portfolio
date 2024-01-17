@@ -3,9 +3,13 @@ const menu = document.querySelector("#menu");
 
 const navLink = document.querySelectorAll("nav-link");
 
+// for getting the skills
 const skillsTitle = document.getElementsByClassName("title");
 const skillsContainers = document.getElementsByClassName("skills");
 const skillsContainers_2= document.getElementsByClassName("skills-2");
+
+
+// for getting the projects
 
 hamburger.addEventListener("click", () => {
   menu.classList.toggle("hidden");
@@ -66,3 +70,7 @@ fetch(skillURL)
     }
   })
   .catch((err) => console.log(err));
+
+  const projectURL = "https://raw.githubusercontent.com/aadityamishraa/portfolio/master/data/project.json"
+  fetch(projectURL)
+  .then(response => response.json())
