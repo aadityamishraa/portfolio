@@ -642,8 +642,16 @@ video {
   margin-bottom: 4rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .inline-block{
   display: inline-block;
+}
+
+.inline{
+  display: inline;
 }
 
 .flex{
@@ -652,6 +660,10 @@ video {
 
 .table{
   display: table;
+}
+
+.grid{
+  display: grid;
 }
 
 .hidden{
@@ -900,6 +912,11 @@ video {
   padding-bottom: 7rem;
 }
 
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .text-justify{
   text-align: justify;
 }
@@ -925,6 +942,11 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-extrabold{
