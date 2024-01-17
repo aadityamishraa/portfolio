@@ -1,7 +1,7 @@
 [
     {
         "title": "Language",
-        "items": ["Typescript", "JavaScript", "C++", "Dart", "HTML", "CSS"]
+        "items": ["Typescript", "JavaScript", "C++", "Dart", "HTML", "CSS", "PHP"]
     },
     {
         "title": "Framework",
@@ -9,6 +9,6 @@
     },
     {
         "title": "Design Tools",
-        "items": ["Figma", "Miro", "Framer"]
+        "items": ["Figma", "Miro"]
     }
 ]
