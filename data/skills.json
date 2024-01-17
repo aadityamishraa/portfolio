@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Language",
+        "items": ["Typescript", "JavaScript", "C++", "Dart", "HTML", "CSS"]
+    },
+    {
+        "title": "Framework",
+        "items": ["Reactjs", "Flutter", "Nodejs", "Expressjs", "Wordpress", "Tailwind"]
+    },
+    {
+        "title": "Design Tools",
+        "items": ["Figma", "Miro"]
+    }
+]
