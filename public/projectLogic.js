@@ -24,14 +24,12 @@ fetch(projectsURL)
     //   imageContainer.classList.add("w-1/2");
 
       // Check if imgURL is provided and create an image element if it exists
-      if (project.imgURL) {
+
         const imageElement = document.createElement("img");
         imageElement.src = project.imgURL;
         imageElement.alt = project.title;
-        // imageElement.classList.add("w-full", "h-full");
         projectCard.appendChild(imageElement);
-      }
-
+    
       const infoContainer = document.createElement("div");
       infoContainer.classList.add("w-full", "h-full");
 
