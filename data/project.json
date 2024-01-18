@@ -1,7 +1,7 @@
 [
     {
         "title": "Safelane",
-        "imgURL": "https://i.ibb.co/7b7YjXN/safelane-thumbnail.png",
+        "imgURL": "https://i.ibb.co/yWNLG42/safelane-thumbnail.png",
         "description": "A mobile app designed to tackle neglected issue of potholes, open manholes, and other road hazards that can lead to accidents.",
         "tech": "Flutter, Google Maps API, Firebase",
         "githubLink": "https://github.com/aadityamishraa/SafeLane-Final"
