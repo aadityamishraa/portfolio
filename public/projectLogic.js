@@ -8,28 +8,21 @@ fetch(projectsURL)
     data.forEach((project) => {
       const projectCard = document.createElement("div");
       projectCard.classList.add(
-        "card",
         "w-3/4",
         "m-auto",
         "flex",
-        "flex-col",
-        "sm:flex-row",
-        "items-center",
+        "flex-wrap",
+        "sm:flex-nowrap",
         "space-y-4",
         "sm:space-y-0",
         "sm:space-x-12"
       );
 
-    //   const imageContainer = document.createElement("div");
-    //   imageContainer.classList.add("w-1/2");
+      const imageElement = document.createElement("img");
+      imageElement.src = project.imgURL;
+      imageElement.alt = project.title;
+      projectCard.appendChild(imageElement);
 
-      // Check if imgURL is provided and create an image element if it exists
-
-        const imageElement = document.createElement("img");
-        imageElement.src = project.imgURL;
-        imageElement.alt = project.title;
-        projectCard.appendChild(imageElement);
-    
       const infoContainer = document.createElement("div");
       infoContainer.classList.add("w-full", "h-full");
 
@@ -59,7 +52,7 @@ fetch(projectsURL)
       const linkElement = document.createElement("a");
       linkElement.classList.add("text-white", "font-play");
       linkElement.href = project.githubLink;
-      linkElement.target= "_blank";
+      linkElement.target = "_blank";
       linkElement.textContent = "Open  ";
       linkElement
         .appendChild(document.createElement("i"))

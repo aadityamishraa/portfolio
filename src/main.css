@@ -1,15 +1,12 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Sora:wght@300;400;500;600;700;800&display=swap");
- */
- @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;700&family=Sora:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;700&family=Sora:wght@300;400;500;600;700;800&display=swap");
 @tailwind base;
 
-*{
-  font-family: 'Andika', sans-serif;
+* {
+  font-family: "Sora", sans-serif;
 }
 
 *::-webkit-scrollbar {
   width: 10px;
-  
 }
 
 *::-webkit-scrollbar-thumb {
@@ -17,8 +14,7 @@
 }
 
 *::-webkit-scrollbar-track {
-    
-    /* background-color: #d4d4d4; */
+  /* background-color: #d4d4d4; */
 }
 
 @tailwind components;
@@ -28,7 +24,5 @@
   .font-outline-2 {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-
   }
-  
 }
