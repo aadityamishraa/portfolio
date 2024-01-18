@@ -22,7 +22,7 @@
                     <a class="hover:cursor-fancy-hand font-sora font-medium" href="#about">About</a>
                 </li>
                 <li class="hover:border-b-4 border-black">
-                    <a class="hover:cursor-fancy-hand font-sora font-medium" href="">Projects</a>
+                    <a class="hover:cursor-fancy-hand font-sora font-medium" href="#projects">Projects</a>
                 </li>
                 <li class="hover:border-b-4 border-black">
                     <a class="hover:cursor-fancy-hand font-sora font-medium" href="./blogs.html">Blogs</a>
@@ -48,10 +48,10 @@
                     <a class="hover:cursor-fancy-hand nav-link font-sora font-medium" href="#about">About</a>
                 </li>
                 <li class="">
-                    <a class="hover:cursor-fancy-hand nav-link font-sora font-medium" href="">Projects</a>
+                    <a class="hover:cursor-fancy-hand nav-link font-sora font-medium" href="#projects">Projects</a>
                 </li>
                 <li class="">
-                    <a class="hover:cursor-fancy-hand nav-link font-sora font-medium" href="">Blogs</a>
+                    <a class="hover:cursor-fancy-hand nav-link font-sora font-medium" href="./blogs.html">Blogs</a>
                 </li>
                 <li class="">
                     <a class="hover:cursor-fancy-hand nav-link font-sora font-medium" href="#contact">Contact</a>
@@ -86,7 +86,7 @@
 
     <!-- About -->
     <div id="about" class="h-screen w-full bg-black flex items-center ">
-        <div  class="w-3/4 sm:pl-4 m-auto flex flex-col sm:flex-row">
+        <div class="w-3/4 sm:pl-4 m-auto flex flex-col sm:flex-row">
             <!-- Profile -->
             <img class=" mb-12 sm:mb-0 sm:mr-24 " src="/assets/about_imges.png" alt="" srcset="" />
             <!-- About-content  -->
@@ -103,7 +103,7 @@
     </div>
 
     <!-- My Skills -->
-    <div class="w-4/5 h-full mb-16 py-16 m-auto sm:my-40">
+    <div class="w-4/5 h-full mb-16 py-4 m-auto sm:my-40">
         <p class="font-sora text-4xl font-extrabold mb-16"># My Skills ⚒️</p>
         <div class="flex items-center justify-between flex-wrap sm:flex-nowrap space-y-8 sm:space-y-0 sm:space-x-8">
             <div class="border-2 border-black bg-green-200 h-full w-full">
@@ -150,7 +150,19 @@
     </div>
 
     <!-- Projects -->
-    <div class="projects"></div>
+    <div id="projects" class="projects bg-black h-full w-full m-auto py-16 mb-16">
+        <div>
+            <div class="card w-2/3 m-auto p-4 flex flex-wrap sm:flex-nowrap bg-red-300">
+                <img class="" src="https://i.ibb.co/yWNLG42/safelane-thumbnail.png" alt="">
+                <div class="w-1/2 h-full">
+                    <p class="">Title</p>
+                    <p class="">Description</p>
+                    <p class="">Techstack</p>
+                    <div class=""><a href="">github link</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Contact -->
     <div id="contact" class="w-4/5 m-auto flex flex-wrap-reverse">
@@ -182,7 +194,8 @@
             <p class="font-sora text-5xl font-extrabold mb-12"># Contact 🤙</p>
             <ul class="text-xl">
                 <li class="font-play before:content-['🚀']">Let's make something awesome together!</li>
-                <li class="font-play before:content-['🤝']">I love collaborating, so don't hesitate to reach out and say
+                <li class="font-play before:content-['🤝']">I love collaborating, so don't hesitate to reach out and
+                    say
                     hi!</li>
             </ul>
             <p class="font-sora text-xl font-medium mt-8">Reach me at:</p>
@@ -192,9 +205,6 @@
 
     <!-- Footer -->
 
-    <div id="projects-container" class="projects-container">
-        <!-- Project cards will be generated here -->
-    </div>
 
     <footer class="p-8">
         <h1 align="center">Developed by ❤️ Aaditya Mishra</h1>
