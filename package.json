@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/main.css -o ./public/style.css --watch"
+    "buildcss": "tailwindcss -i ./src/main.css -o ./public/style.css --watch",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "vite": "^5.0.11"
   }
 }
