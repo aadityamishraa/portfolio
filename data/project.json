@@ -8,14 +8,14 @@
     },
     {
         "title": "Pollex",
-        "imgURL": "",
+        "imgURL": "https://i.ibb.co/6Rp8SRH/pollex.png",
         "description": "A social platform where users or organizations can create polls, and get responses. Also people can share their opinion by polling.",
         "tech": "Flutter, Firebase",
         "githubLink": "https://github.com/aadityamishraa/pollex"
     },
     {
         "title": "InforMMU",
-        "imgURL": "",
+        "imgURL": "https://i.ibb.co/dfR4T32/informmu.png",
         "description": "An application that helps both faculty and students to streamline their academic experience in MM(DU).",
         "tech": "Flutter, Firebase, Reactjs, MUI, Figma",
         "githubLink": "https://github.com/collegeprojectmmdu/InforMMu"
