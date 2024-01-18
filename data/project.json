@@ -4,20 +4,20 @@
         "imgURL": "https://i.ibb.co/7b7YjXN/safelane-thumbnail.png",
         "description": "A mobile app designed to tackle neglected issue of potholes, open manholes, and other road hazards that can lead to accidents.",
         "tech": "Flutter, Google Maps API, Firebase",
-        "githubLink": "https: //github.com/aadityamishraa/SafeLane-Final"
+        "githubLink": "https://github.com/aadityamishraa/SafeLane-Final"
     },
     {
         "title": "Pollex",
         "imgURL": "",
         "description": "A social platform where users or organizations can create polls, and get responses. Also people can share their opinion by polling.",
         "tech": "Flutter, Firebase",
-        "githubLink": "https: //github.com/aadityamishraa/pollex"
+        "githubLink": "https://github.com/aadityamishraa/pollex"
     },
     {
         "title": "InforMMU",
         "imgURL": "",
         "description": "An application that helps both faculty and students to streamline their academic experience in MM(DU).",
         "tech": "Flutter, Firebase, Reactjs, MUI, Figma",
-        "githubLink": "https: //github.com/collegeprojectmmdu/InforMMu"
+        "githubLink": "https://github.com/collegeprojectmmdu/InforMMu"
     }
 ]
