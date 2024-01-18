@@ -9,19 +9,19 @@ fetch(projectsURL)
       const projectCard = document.createElement("div");
       projectCard.classList.add(
         "card",
-        "w-4/5",
+        "w-3/4",
         "m-auto",
         "flex",
-        "flex-wrap",
+        "flex-col",
+        "sm:flex-row",
         "items-center",
-        "sm:flex-nowrap",
         "space-y-4",
         "sm:space-y-0",
         "sm:space-x-12"
       );
 
-      const imageContainer = document.createElement("div");
-      imageContainer.classList.add("w-1/2");
+    //   const imageContainer = document.createElement("div");
+    //   imageContainer.classList.add("w-1/2");
 
       // Check if imgURL is provided and create an image element if it exists
       if (project.imgURL) {
@@ -29,11 +29,11 @@ fetch(projectsURL)
         imageElement.src = project.imgURL;
         imageElement.alt = project.title;
         // imageElement.classList.add("w-full", "h-full");
-        imageContainer.appendChild(imageElement);
+        projectCard.appendChild(imageElement);
       }
 
       const infoContainer = document.createElement("div");
-      infoContainer.classList.add("w-1/2", "h-full");
+      infoContainer.classList.add("w-full", "h-full");
 
       const titleElement = document.createElement("p");
       titleElement.classList.add(
@@ -61,7 +61,8 @@ fetch(projectsURL)
       const linkElement = document.createElement("a");
       linkElement.classList.add("text-white", "font-play");
       linkElement.href = project.githubLink;
-      linkElement.textContent = "Open";
+      linkElement.target= "_blank";
+      linkElement.textContent = "Open  ";
       linkElement
         .appendChild(document.createElement("i"))
         .classList.add("fa-solid", "fa-up-right-from-square");
@@ -71,7 +72,6 @@ fetch(projectsURL)
       infoContainer.appendChild(techElement);
       infoContainer.appendChild(linkElement);
 
-      projectCard.appendChild(imageContainer);
       projectCard.appendChild(infoContainer);
 
       projectsContainer.appendChild(projectCard);
